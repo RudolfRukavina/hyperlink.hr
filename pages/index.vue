@@ -1,124 +1,92 @@
 <template>
 
   <Head>
-    <Title>Hyperlink - Naslovnica</Title>
+    <Title>Hyperlink - Taxi služba</Title>
     <Meta name="description"
       content="Najpovoljniji najam putničkih kombi vozila (8+1 sjedala) i automobila u Primorsko-goranskoj županiji! Otvoreni smo 24 sata svaki dan." />
     <Style type="text/css" />
   </Head>
   <!--Hero-->
 
-  <body class="leading-normal tracking-normal  bg-white" style="font-family: 'Source Sans Pro', sans-serif">
-    <div class="pt-10 py-2 mx-1">
 
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center mb-5">
-        <div class="flex flex-col w-full md:w-5/5 justify-center items-center mt-16 text-center md:text-left">
-          <p>Priprema za poticaje i nastanak</p>
-          <img src="../assets/img/hplink.webp" alt="" class="w-96" />
-          <p class="text-gray-800 w-full text-center mt-2 text-xl font-semibold drop-shadow-lg">
-            Obrta za računalno programiranje
-          </p>
+  <body class="leading-normal tracking-normal text-white bg-white" style="font-family: 'Source Sans Pro', sans-serif">
 
-          <p class="text-gray-800 w-full text-center mt-2 text-xl ">
-            vl. <span class='font-semibold drop-shadow-lg text-2xl'>Rudolf Rukavina</span>
-          </p>
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row  mt-20 items-center">
+      <div class="w-full md:w-2/5 flex justify-center py-6 mb-10 text-center">
+        <img class="rounded-xl md:w-4/5"
+          src="https://img.freepik.com/free-vector/young-family-with-baggage-taking-taxi-airport_74855-11291.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708041600&semt=ais"
+          alt="" />
+      </div>
+      <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
+
+        <h1 class="mb-4 text-3xl md:text-7xl text-black drop-shadow-md font-bold text-center leading-tight w-full">
+          Taxi služba - Otkrijte svoj
+          <span class="text-rose-600 drop-shadow-md">
+            digitalni potencijal
+          </span>
+
+        </h1>
+        <p class="text-gray-500 text-base font-semibold font-sans mx-5">
+          Hyperlink Software Development pomaže znatiželjnim vlasnicima tvrtki
+          otkriti digitalne mogućnosti njihovog poslovanja i procijeniti
+          je li
+          <span class="text-rose-500 drop-shadow-md">pravo vrijeme za digitalizaciju.</span>
+        </p>
+        <p class="text-gray-500 text-base font-semibold font-sans mx-5 mt-4">
+          Želite bolje poslovati te doprijeti do više klijenata? Mi znamo što Vama treba. Vi ste jednostavna taxi
+          služba, i svjesni ste da Vam ne treba napredan sistem i web stranica da bi bolje poslovali. Vama samo treba
+          još jedna poveznica kako bi ljudi lako i efikasno došli do usluge koja njima treba - Taxi prijevoz. Za Vas u
+          ponudi imamo jedinstvenu promotivnu akciju izrade moderne, višejezične web stranice po povoljnoj cijeni od 440
+          Eura. Povodom otvorenja Hyperlink Software Development-a, prvih 10 klijenata također dobivaju jedinstveni
+          popust od 50%. U nastavku možete vidjeti da se stranica sastoji od moderne višejezične web stranice, na vašoj
+          vlastitoj domeni, s već uračunatim hostingom u trajanju od 1 godine.
+          <span class="text-orange-500 drop-shadow-md">Investicija u web stranicu nikada nije bila ovako
+            isplativa.</span>
+        </p>
+        <div class="w-full flex justify-center my-2">
+          <NuxtLink to="#businesses"
+            class="mx-3 hover:underline bg-rose-600 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Otkrij
+          </NuxtLink>
+          <a href='tel:+385992053344'
+            class="mx-3 hover:underline bg-rose-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Nazovite nas!
+          </a>
         </div>
       </div>
-      <section class="container mx-auto px-10 text-center py-1 pb-10" id="radnovrijeme">
-        <a href="tel:+385992053344">
-          <button
-            class="mx-3 hover:underline bg-rose-700 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Nazovite me!
-          </button>
-        </a>
-      </section>
-      <hr />
-      <section>
-        <h2 class="w-full my-2 mt-20 text-4xl font-bold leading-tight px-5 text-center text-gray-800">
-          Zelena i digitalna tranzicija
-        </h2>
-        <h2 class="w-full my-2 text-base font-bold leading-tight px-2 text-center text-gray-800">
-          Moja uloga je digitalizirati mikro, male i srednje poduzetnike u Hrvatskoj prema viziji <a
-            href='https://hrvatska2030.hr/' target='_blank' class='text-blue-600 underline'>Digitalna Hrvatska
-            2030.</a>
-        </h2>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-        </div>
-        <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row  mt-20 items-center">
-          <div class="w-full md:w-2/5 flex justify-center py-6 mb-10 text-center">
-            <img class="rounded-xl md:w-4/5" src="../assets/img/hyperlinkhero.svg" alt="" />
-          </div>
-          <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
-
-            <h1 class="mb-4 text-3xl md:text-7xl text-black drop-shadow-md font-bold text-center leading-tight w-full">
-              Discover
-              <span class="text-rose-600 drop-shadow-md">
-                the digital potential
-              </span>
-              of your business
-            </h1>
-            <p class="text-gray-500 text-base font-semibold font-sans mx-5">
-              Hyperlink Software Development helps curious business owners
-              discover the digital capability of their business and evaluates
-              whether
-              <span class="text-rose-500 drop-shadow-md">it's the right time for digitalization.</span>
-            </p>
-            <p class="text-gray-500 text-base font-semibold font-sans mx-5 mt-4">
-              Millions of individuals invest significant time and resources in
-              repetitive tasks, often due to a lack of essential information and
-              technology. Our expert guidance, tailored asessments, personalized
-              solutions, timely evaluations, and proven success in unlocking
-              businesses' digital potential make it worthwhile for us to come
-              together around shared interests,
-              <span class="text-orange-500 drop-shadow-md">improving how we do the jobs we love.</span>
-            </p>
-            <div class="w-full flex justify-center my-2">
-              <NuxtLink to="#businesses"
-                class="mx-3 hover:underline bg-rose-600 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Discover
-              </NuxtLink>
-              <a href='tel:+385992053344'
-                class="mx-3 hover:underline bg-rose-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Make a Call
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
-    <section>
-      <h2 class="w-full my-2 mt-20 text-4xl font-bold leading-tight px-5 text-center text-gray-800">
-        Vaucheri za digitalizaciju
-      </h2>
-      <h2 class="w-full my-2 text-base font-bold leading-tight px-2 text-center text-gray-800">
-        Planiram zahtijevati vauchere za digitalizaciju, ako još uvijek budu
-        dostupni.
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center mb-32">
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-center mt-16 text-center md:text-left">
-          <img src="../assets/img/hplink.webp" alt="" class="w-92" />
-          <p class="text-gray-800 w-full text-center mt-2 text-xl font-semibold drop-shadow-lg">
-            Obrt za računalno programiranje
-          </p>
-        </div>
-        <div class="flex flex-col w-full md:w-1/5 justify-center items-center mt-16 text-center md:text-left">
-          <h1
-            class="text-3xl underline-offset-8 md:text-8xl text-black drop-shadow-lg font-bold text-center leading-tight w-full">
-            +
-          </h1>
-        </div>
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <img class="rounded-xl my-2 md:w-full" src="../assets/img/eufondovi.jpeg" alt="" />
-        </div>
-      </div>
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center mb-5">
+      <div class="flex flex-col w-full md:w-5/5 justify-center items-center mt-16 text-center md:text-left">
+        <p>Prezentacijska stranica za proizvod - Web stranica taxi službe</p>
+        <img src="../assets/img/hplink.webp" alt="" class="w-96" />
 
+        <p class="text-gray-800 w-full text-center mt-2 text-xl ">
+          vl. <span class='font-semibold drop-shadow-lg text-2xl'>Rudolf Rukavina</span>
+        </p>
+      </div>
+    </div>
+    <section class="container mx-auto px-10 text-center py-1 pb-10" id="radnovrijeme">
+      <a href="tel:+385992053344">
+        <button
+          class="mx-3 hover:underline bg-rose-700 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Nazovite nas!
+        </button>
+      </a>
     </section>
+    <div class='flex justify-center'>
+      <img src='../assets/img/racuntaxiweb.png' class="lg:w-3/4" />
+    </div>
+    <a href="/invoice.pdf" class=' flex justify-center'>
+      <button type="button"
+        class="px-4 py-3 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform mx-5 flex">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
 
-
+        <span class="ml-2">Download</span>
+      </button>
+    </a>
   </body>
 </template>
 <script setup>

@@ -2503,67 +2503,13 @@ const sources$1 = [
         },
         "urls": [
             {
-                "loc": "/2024"
-            },
-            {
-                "loc": "/2025"
-            },
-            {
-                "loc": "/2026"
-            },
-            {
-                "loc": "/2027"
-            },
-            {
-                "loc": "/2028"
-            },
-            {
-                "loc": "/caffe"
-            },
-            {
-                "loc": "/certifikati"
-            },
-            {
-                "loc": "/digitalizacija"
-            },
-            {
-                "loc": "/e-radna-knji%C5%BEica"
-            },
-            {
-                "loc": "/frizerski"
-            },
-            {
-                "loc": "/googlereviewcard"
-            },
-            {
                 "loc": "/"
             },
             {
                 "loc": "/izbornik"
             },
             {
-                "loc": "/mojeinformacije"
-            },
-            {
-                "loc": "/pismanamjere"
-            },
-            {
-                "loc": "/potpore"
-            },
-            {
-                "loc": "/preslikadiplome"
-            },
-            {
-                "loc": "/rent"
-            },
-            {
-                "loc": "/restoran"
-            },
-            {
                 "loc": "/taxi"
-            },
-            {
-                "loc": "/teretana"
             }
         ],
         "sourceType": "app"
