@@ -10,7 +10,7 @@ declare module '#app' {
 }
 declare module '@unhead/schema' {
 
-  type PublicFiles = '/Aquarius3000-PN.pdf' | '/Elektronicki_zapis.pdf' | '/ID90-PN.pdf' | '/ID90Potpisan-PN.pdf' | '/KvarnerTours-PN.pdf' | '/Parallel-PN.pdf' | '/ParallelPotpisan-PN.pdf' | '/TaxiOpatija-PN.pdf' | '/_robots.txt' | '/certifikat1.png' | '/favicon.ico' | '/invoice.pdf' | '/rudolfrukavinasvjedodzba.pdf' | '/wasfavicon.ico' | (string & Record<never, never>)
+  type PublicFiles = '/_robots.txt' | '/favicon.ico' | '/wasfavicon.ico' | (string & Record<never, never>)
   type JsFiles = (string & Record<never, never>)
 
   interface SchemaAugmentations {

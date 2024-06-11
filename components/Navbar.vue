@@ -19,7 +19,15 @@
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
           <li>
-            <NuxtLink to="/izbornik" class="text-gray-900 hover:underline">Izbornik
+            <NuxtLink to="/izbornik" class="text-gray-900 hover:underline">Izgled stranice
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/izbornik" class="text-gray-900 hover:underline">Cijena
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/izbornik" class="text-gray-900 hover:underline">Pitanja i odgovori
             </NuxtLink>
           </li>
         </ul>

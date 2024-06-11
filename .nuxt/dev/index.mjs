@@ -2504,12 +2504,6 @@ const sources$1 = [
         "urls": [
             {
                 "loc": "/"
-            },
-            {
-                "loc": "/izbornik"
-            },
-            {
-                "loc": "/taxi"
             }
         ],
         "sourceType": "app"
