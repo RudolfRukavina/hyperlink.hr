@@ -19,7 +19,7 @@
         </div>
         <div class="mr-auto place-self-center lg:col-span-7">
 
-          <p class="max-w-2xl mt-6 font-light text-gray-500 lg:mt-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p class="max-w-2xl mt-14 font-light text-gray-500 lg:mt-8 md:text-lg lg:text-xl dark:text-gray-400">
             Digitalizacija vaše
           </p>
           <h1
@@ -46,10 +46,10 @@
     <!-- Start block -->
     <section class="bg-gray-50 dark:bg-gray-800">
 
-      <div class="max-w-screen-xl px-4 py-4 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+      <div class="max-w-screen-xl px-4 py-1 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <!-- Row -->
         <div class="">
-          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-7xl lg:px-8">
             <div class="mx-auto mt-4 max-w-2xl  ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
               <div class="p-8 bg-white sm:p-10 lg:flex-auto">
                 <h3 class="text-2xl font-bold tracking-tight text-gray-900">Taxi web stranica</h3>
@@ -99,7 +99,7 @@
               </div>
               <div class="-mt-2 bg-white  p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div
-                  class="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 h-full">
+                  class="rounded-md shadow-inner bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 h-full">
                   <div class="mx-auto max-w-xs px-8">
                     <p class="mt-6 flex items-baseline justify-center gap-x-2">
                       <span class="text-5xl font-bold tracking-tight text-gray-900 line-through">440€</span>
@@ -148,7 +148,7 @@
                     </p>
                     <p class="text-gray-500 dark:text-gray-400">Ukoliko zahtjev za domenu prođe isti dan, Vaš web može
                       biti
-                      dovršen i dostupan<a href="#" class="text-purple-600 dark:text-purple-500 hover:underline"> unutar
+                      dovršen i dostupan<a href="#" class="text-blue-600 dark:text-blue-500 hover:underline"> unutar
                         24 sata</a>. </p>
                   </div>
                 </div>
@@ -203,8 +203,8 @@
                       two worlds.</p>
                     <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
                     <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind Pro</a></li>
-                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind UI</a></li>
+                      <li><a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">Landwind Pro</a></li>
+                      <li><a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
                     </ul>
                   </div>
                 </div>
@@ -236,8 +236,8 @@
                       two worlds.</p>
                     <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
                     <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind Pro</a></li>
-                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind UI</a></li>
+                      <li><a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">Landwind Pro</a></li>
+                      <li><a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
                     </ul>
                   </div>
                 </div>
@@ -258,7 +258,7 @@
           <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Hyperlink je novoosnovana firma koja se
             bavi digitalizacijom poslovanja mikro, malih i srednjih poduzetnika.</p>
           <a href="tel:+385992053344"
-            class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Nazovite
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Nazovite
             nas</a>
         </div>
       </div>
