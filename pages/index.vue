@@ -9,398 +9,57 @@
   <!--Hero-->
 
 
-  <body class="leading-normal tracking-normal text-white bg-white" style="font-family: 'Source Sans Pro', sans-serif">
-    <section class="pt-8 lg:pt-32 bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
-        <div class="border border-blue-600 p-1 w-60 mx-auto rounded-full flex items-center justify-between mb-4">
-          <span class="font-inter text-sm font-medium text-gray-900 ml-3">50% popusta do
-            <strong>15.06.2024.</strong></span>
-          <a href="javascript:;" class="w-8 h-8 rounded-full flex justify-center items-center bg-blue-600">
-            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
-                stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </a>
+  <body>
+
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+      <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+        <div class=" lg:mt-0 lg:col-span-5 lg:flex">
+          <img src="../assets/img/taximockup.png" class="p-2 rounded-xl" alt="hero image">
         </div>
-        <h1
-          class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl leading-[50px]">
+        <div class="mr-auto place-self-center lg:col-span-7">
 
-          <span class="text-gray-900 drop-shadow-md">Vaša nova web stranica?</span>
-        </h1>
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-          <img alt="..." class="max-w-full rounded-lg shadow-lg" src="../assets/img/taxi vrsar hero.png">
-        </div>
-        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-          <div class="md:pr-12">
+          <p class="max-w-2xl mt-6 font-light text-gray-500 lg:mt-8 md:text-lg lg:text-xl dark:text-gray-400">
+            Digitalizacija vaše
+          </p>
+          <h1
+            class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+            Taxi službe</h1>
 
-            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-              Savršena za vašu taxi službu.
-            </p>
-            <ul class="list-none mt-6">
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                        class="fas fa-fingerprint"></i></span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">
-                      Višejezična (eng/hrv)
-                    </h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                        class="fab fa-html5"></i></span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">Interaktivna</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                        class="far fa-paper-plane"></i></span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">Apsurdno optimizirana za Google</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span
-                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                        class="far fa-paper-plane"></i></span>
-                  </div>
-                  <div>
-                    <h4 class="text-blueGray-500">I najvažnije, jednostavna.</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center justify-center">
+          <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+            <a href="https://github.com/themesberg/landwind"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+              <svg class="w-4 h-4 mr-2 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg> Kontaktirajte nas
+            </a>
+            <a href="https://github.com/themesberg/landwind"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+              <svg class="w-4 h-4 mr-2 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg> Web stranica
+            </a>
 
-                  <div>
-                    <h4 class="text-blueGray-500">+ domena i hosting osigurani na 1 godinu</h4>
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
-        <a href="tel:+385992053344">
-          <button
-            class="mx-3 hover:underline bg-blue-700 text-white font-bold rounded-full my-4 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Vidi cijelu web stranicu
-          </button>
-        </a>
-        <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
-        <link rel="stylesheet"
-          href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+      </div>
+      <h1 class=" mx-auto text-center font-manrope font-bold text-lg text-gray-900 md:text-3xl leading-[50px]">
 
-        <div>
-          <section class="relative pt-5 mt-5 bg-blueGray-50 text-black">
-            <div class="items-center flex flex-wrap">
-              <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <h3 class="text-3xl mt-5 font-semibold mb-3 text-gray-800">Naslovnica</h3>
-                <img alt="..." class="max-w-full rounded-lg shadow-lg" src="../assets/img/taxi vrsar hero.png">
-              </div>
-              <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                <div class="md:pr-12">
-
-                  <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Naslovnica koja se sastoji od esencijalnih stvari za web stranicu taxi službe.
-                  </p>
-                  <ul class="list-none mt-6">
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="fas fa-fingerprint"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blueGray-500">
-                            Jednostavna interaktivna navigacija
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="fab fa-html5"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blueGray-500">Poziv na broj, Viber ili WhatsApp</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="far fa-paper-plane"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blue-500 cursor-pointer underline">Vidi cijelu stranicu</h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <footer class="relative  pt-8 pb-6 mt-8">
-              <div class="container mx-auto px-4">
-                <div class="flex flex-wrap items-center md:justify-between justify-center">
-                  <div class="w-full md:w-6/12 px-4 mx-auto text-center">
-                    <div class="text-sm text-blueGray-500 font-semibold py-1">
-                      Vidi više o naslovnici <svg class="ml-2 inline-block bg-blue-500" width="20" height="20"
-                        viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
-                          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </section>
-          <section class="relative pt-5 mt-5 bg-blueGray-50 text-black">
-            <div class="items-center flex flex-wrap">
-              <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <h3 class="text-3xl mt-5 mb-3 font-semibold text-gray-800">Cjenik taxi usluge</h3>
-                <img alt="..." class="max-w-full rounded-lg shadow-lg" src="../assets/img/taxi vrsar price day.png">
-              </div>
-              <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                <div class="md:pr-12">
-                  <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Cjenik taxi usluge koji se sastoji od dinamičnog prikaza cijene za web stranicu taxi službe.
-                  </p>
-                  <ul class="list-none mt-6">
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="fas fa-fingerprint"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blueGray-500">
-                            Izmjenjivi prikaz cijene (dan/noć)
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="fab fa-html5"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blueGray-500">Bazirano na trenutnom vremenu</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="far fa-paper-plane"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blue-500 cursor-pointer underline">Vidi cijelu stranicu</h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <footer class="relative  pt-8 pb-6 mt-8">
-              <div class="container mx-auto px-4">
-                <div class="flex flex-wrap items-center md:justify-between justify-center">
-                  <div class="w-full md:w-6/12 px-4 mx-auto text-center">
-                    <div class="text-sm text-blueGray-500 font-semibold py-1">
-                      Vidi više o naslovnici <svg class="ml-2 inline-block bg-blue-500" width="20" height="20"
-                        viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
-                          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </section>
-          <section class="relative pt-5 mt-5 bg-blueGray-50 text-black">
-            <div class="items-center flex flex-wrap">
-              <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <img alt="..." class="max-w-full rounded-lg shadow-lg" src="../assets/img/taxi vrsar about us 1.png">
-              </div>
-              <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                <div class="md:pr-12">
-                  <h3 class="text-3xl mt-5 font-semibold">Sekcija "O nama"</h3>
-                  <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Sekcija koja vašoj taxi službi donosi kredibilitet.
-                  </p>
-                  <ul class="list-none mt-6">
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="fas fa-fingerprint"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blueGray-500">
-                            4 zasebne stranice
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <h4 class="text-blueGray-500">1. Google ocjena</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <h4 class="text-blueGray-500">2. Tko smo mi?</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <h4 class="text-blueGray-500">3. Naša vozila</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <h4 class="text-blueGray-500">4. Nazovite nas</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="far fa-paper-plane"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blue-500 cursor-pointer underline">Vidi cijelu stranicu</h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <footer class="relative  pt-8 pb-6 mt-8">
-              <div class="container mx-auto px-4">
-                <div class="flex flex-wrap items-center md:justify-between justify-center">
-                  <div class="w-full md:w-6/12 px-4 mx-auto text-center">
-                    <div class="text-sm text-blueGray-500 font-semibold py-1">
-                      Vidi više o naslovnici <svg class="ml-2 inline-block bg-blue-500" width="20" height="20"
-                        viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
-                          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </section>
-          <section class="relative pt-5 mt-5 bg-blueGray-50 text-black">
-            <div class="items-center flex flex-wrap">
-              <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <img alt="..." class="max-w-full rounded-lg shadow-lg" src="../assets/img/taxi vrsar footer.png">
-              </div>
-              <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                <div class="md:pr-12">
-                  <h3 class="text-3xl mt-5 font-semibold">Donja navigacija</h3>
-                  <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Na dnu svake stranica nalazi se navigacija.
-                  </p>
-                  <ul class="list-none mt-6">
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="fas fa-fingerprint"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blueGray-500">
-                            Sve na jednome mjestu
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="py-2">
-                      <div class="flex items-center">
-                        <div>
-                          <span
-                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-sky-600 bg-sky-200 mr-3"><i
-                              class="far fa-paper-plane"></i></span>
-                        </div>
-                        <div>
-                          <h4 class="text-blue-500 cursor-pointer underline">Vidi cijelu stranicu</h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <footer class="relative  pt-8 pb-6 mt-8">
-              <div class="container mx-auto px-4">
-                <div class="flex flex-wrap items-center md:justify-between justify-center">
-                  <div class="w-full md:w-6/12 px-4 mx-auto text-center">
-                    <div class="text-sm text-blueGray-500 font-semibold py-1">
-                      Vidi više o naslovnici <svg class="ml-2 inline-block bg-blue-500" width="20" height="20"
-                        viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
-                          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </section>
-        </div>
-        <div class=" py-10 sm:py-14">
+        <span class="text-gray-900 drop-shadow-md">50% popusta do 16.06.2024.</span>
+      </h1>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-screen-xl px-4 py-4 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+        <!-- Row -->
+        <div class="">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto mt-4 max-w-2xl  ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
               <div class="p-8 bg-white sm:p-10 lg:flex-auto">
@@ -459,8 +118,8 @@
                       <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">EUR</span>
                     </p>
                     <a href="#"
-                      class="mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Nazovite
-                      Hyperlink</a>
+                      class="mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Naručite
+                      izradu</a>
 
                   </div>
                 </div>
@@ -468,8 +127,151 @@
             </div>
           </div>
         </div>
+        <section class="bg-white rounded-xl dark:bg-gray-900">
+          <div class="w-full px-4 py-8 rounded-xl shadow-xl lg:pb-24 lg:px-6 ">
+            <h2
+              class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+              Često postavljana pitanja</h2>
+            <div class="max-w-screen-md mx-auto">
+              <div id="accordion-flush" data-accordion="collapse"
+                data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+                data-inactive-classes="text-gray-500 dark:text-gray-400">
+                <h3 id="accordion-flush-heading-1">
+                  <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white"
+                    data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+                    aria-controls="accordion-flush-body-1">
+                    <span>Koliko je vremena potrebno da se izradi web stranica za moju taxi službu?</span>
+                    <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
+                      viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Izrada vaše web stranice traje 1 - 3 dana.
+                    </p>
+                    <p class="text-gray-500 dark:text-gray-400">Ukoliko zahtjev za domenu prođe isti dan, Vaš web može
+                      biti
+                      dovršen i dostupan<a href="#" class="text-purple-600 dark:text-purple-500 hover:underline"> unutar
+                        24 sata</a>. </p>
+                  </div>
+                </div>
+                <h3 id="accordion-flush-heading-2">
+                  <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                    data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
+                    aria-controls="accordion-flush-body-2">
+                    <span>Što kada prođe godinu dana?</span>
+                    <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Nakon godinu dana, ukoliko želite da se stranica
+                      i dalje prikazuje na internetu, vašu domenu i hosting će
+                      trebati produžiti, ali 30 dana prije isteka hostinga i domene, Hyperlink će Vas zvati za
+                      upit želite li produžiti domenu i hosting na još godinu dana.</p>
+                    <p class="text-gray-500 dark:text-gray-400">- Produživanje domene će vas koštati 83€ za narednu
+                      godinu.</p>
+                    <p class="text-gray-500 dark:text-gray-400">- Produživanje hostinga će vas koštati 15€ za narednu
+                      godinu</p>
+                    <p class="text-gray-500 dark:text-gray-400">- Stranica je proizvod i kao takva se ne produžuje.</p>
+                  </div>
+                </div>
+                <h3 id="accordion-flush-heading-3">
+                  <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                    data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
+                    aria-controls="accordion-flush-body-3">
+                    <span>Koliko košta produživanje domene?</span>
+                    <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Produživanje domene će vas koštati 83€ za narednu
+                      godinu.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Landwind,
+                      Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the
+                      best of
+                      two worlds.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                    <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind Pro</a></li>
+                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind UI</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <h3 id="accordion-flush-heading-4">
+                  <button type="button"
+                    class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                    data-accordion-target="#accordion-flush-body-4" aria-expanded="false"
+                    aria-controls="accordion-flush-body-4">
+                    <span>Koliko košta produživanje hostinga?</span>
+                    <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                </h3>
+                <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components
+                      from
+                      Landwind are open source under the MIT license, whereas Tailwind UI is a paid product. Another
+                      difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI
+                      offers
+                      sections of pages.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Landwind,
+                      Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the
+                      best of
+                      two worlds.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                    <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind Pro</a></li>
+                      <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind UI</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div>
     </section>
+
+
+    <section class="bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+        <div class="max-w-screen-sm mx-auto text-center">
+          <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Što je
+            Hyperlink?</h2>
+          <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Hyperlink je novoosnovana firma koja se
+            bavi digitalizacijom poslovanja mikro, malih i srednjih poduzetnika.</p>
+          <a href="#"
+            class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Nazovite
+            nas</a>
+        </div>
+      </div>
+    </section>
+    <!-- End block -->
   </body>
 </template>
 <script setup>
