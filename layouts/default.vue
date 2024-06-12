@@ -4,7 +4,6 @@
 
       <Navbar></Navbar>
     </header>
-
     <slot></slot>
   </div>
   <Footer></Footer>

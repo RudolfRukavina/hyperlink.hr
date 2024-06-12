@@ -57,7 +57,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import { onMounted } from "vue";
 import {
   initAccordions,
