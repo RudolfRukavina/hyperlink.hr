@@ -111,21 +111,23 @@
                   </li>
                 </ul>
               </div>
+              <div class="mt-5 px-8 flex items-center gap-x-4">
+
+                <h4 class="flex-none text-sm font-semibold leading-6 text-blue-600">Cijena</h4>
+                <div class="h-px flex-auto bg-gray-100"></div>
+              </div>
               <div class="-mt-2 bg-white  p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div
-                  class="rounded-md shadow-inner bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 h-full">
+                  class="rounded-md bg-white py-4  text-center lg:flex lg:flex-col lg:justify-center lg:py-16 h-full">
                   <div class="mx-auto max-w-xs px-8">
                     <p class="mt-6 flex items-baseline justify-center gap-x-2">
-                      <span class="text-5xl font-bold tracking-tight text-gray-900 line-through">440€</span>
-                    </p>
-                    <p class="text-base font-semibold text-gray-600">50% popusta do 19.06.2024</p>
-                    <p class="mt-6 flex items-baseline justify-center gap-x-2">
-                      <span class="text-5xl font-bold tracking-tight text-gray-900">220€</span>
+                      <span class="text-5xl font-bold tracking-tight text-gray-900 line-through">440</span>
                       <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">EUR</span>
                     </p>
-                    <a href="tel:+385992053344"
-                      class="mt-10 block w-full rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Naručite
-                      izradu</a>
+                    <p class="flex items-center justify-center mb-6 space-x-2 font-bold">
+                      <span class="pb-2 text-8xl">220</span>
+                      <span class="text-sm pt-12 font-semibold leading-6 tracking-wide text-gray-600">EUR</span>
+                    </p>
 
                   </div>
                 </div>
