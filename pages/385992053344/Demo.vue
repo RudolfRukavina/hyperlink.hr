@@ -6,13 +6,71 @@
       content="Discover Taxi Vrsar: Explore taxi prices, diverse transport services, and contact us effortlessly via phone, Viber, or WhatsApp!" />
     <link rel="canonical" href="https://www.taxiopatija.hr/" />
   </Head>
+  <header class="fixed top-0 w-full z-50">
+    <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+      <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+        <NuxtLink to="/385992053344/prezentacija" class="flex items-center">
+          <img src="../../assets/img/hplink.webp" class="h-10 mr-3 sm:h-16" alt="Hyperlink Logo" />
+
+        </NuxtLink>
+        <div class="flex items-center lg:order-2">
+
+          <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
+          <a href="tel:+385992053344"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Naruči
+            izradu</a>
+          <button data-collapse-toggle="mobile-menu-32" type="button"
+            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="mobile-menu-2" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-32">
+          <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <li>
+              <NuxtLink to="/385992053344/prezentacija"
+                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                Prezentacija</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/385992053344/demo"
+                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                Primjer
+                web stranice</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#česta-pitanja' }"
+                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                Često
+                postavljena pitanja</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#cijena' }"
+                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                Cijena</NuxtLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   <header>
     <div class="bg-transparent backdrop-blur-[1px] fixed bottom-0 z-50 w-full">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-3 pb-2">
-        <NuxtLink id='Go to homepage' :to="{ path: '/taxivrsar', hash: '#home' }"
+        <NuxtLink id='Go to homepage' :to="{ path: '/385992053344/demo', hash: '#home' }"
           class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo" alt="Taxi Vrsar, logo"
-            class="w-17 h-[44px] inline-block rounded-xl" />
+          <img src="../../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
+            alt="Taxi Vrsar, logo" class="w-17 h-[44px] inline-block rounded-xl" />
         </NuxtLink>
         <div class="flex items-center space-x-6 rtl:space-x-reverse">
           <a href="viber://chat?number=%2B38598491369">
@@ -68,7 +126,7 @@
   </header>
 
   <main id="home">
-    <!-- <img class="hero-photo h-[200px] mb-6 md:hidden rounded-none" src="../assets/imgs/opatijamainphoto.webp"
+    <!-- <img class="hero-photo h-[200px] mb-6 md:hidden rounded-none" src="../../assets/imgs/opatijamainphoto.webp"
       alt="Opatija Taxi" /> -->
     <div
       class="overflow-x-auto text-nowrap whitespace-nowrap sticky top-14 w-full z-40 bg-white mb-14 text-gray-800 shadow-sm"
@@ -77,20 +135,23 @@
         <div class="flex items-center justify-evenly">
           <ul class="grid grid-cols-3 font-medium mt-0 text-[16px]">
             <li class="border-e px-4 w-full text-center">
-              <NuxtLink :to="{ path: '/taxivrsar', hash: '#home' }" class="hover:underline drop-shadow-md">{{ $t("home")
-                }}
+              <NuxtLink :to="{ path: '/385992053344/demo', hash: '#home' }" class="hover:underline drop-shadow-md">{{
+                $t("home")
+              }}
               </NuxtLink>
             </li>
             <li class="px-4 w-full text-center border-gray-300">
-              <NuxtLink :to="{ path: '/taxivrsar', hash: '#taxi-price' }" class="hover:underline drop-shadow-md">{{
-          $t("prices")
-        }}
+              <NuxtLink :to="{ path: '/385992053344/demo', hash: '#taxi-price' }"
+                class="hover:underline drop-shadow-md">{{
+                $t("prices")
+              }}
               </NuxtLink>
             </li>
             <li class="border-s px-4 w-full text-center">
-              <NuxtLink :to="{ path: '/taxivrsar', hash: '#about-us' }" class="hover:underline drop-shadow-md">{{
-          $t("aboutUs")
-        }}
+              <NuxtLink :to="{ path: '/385992053344/demo', hash: '#about-us' }" class="hover:underline drop-shadow-md">
+                {{
+                $t("aboutUs")
+              }}
               </NuxtLink>
             </li>
           </ul>
@@ -101,8 +162,8 @@
     <div class="relative isolate px-6 lg:px-8 pt-8 pb-10 bg-white">
       <div class="mx-auto max-w-2xl pt-10">
         <div class="flex justify-center">
-          <img src="../assets/imgs/taxiopatijalogo.webp" alt="Taxi Vrsar Business Logo Image" title="Taxi Vrsar, logo"
-            class="-mt-5 object-cover w-3/12 sm:w-24" />
+          <img src="../../assets/imgs/taxiopatijalogo.webp" alt="Taxi Vrsar Business Logo Image"
+            title="Taxi Vrsar, logo" class="-mt-5 object-cover w-3/12 sm:w-24" />
         </div>
         <div class="text-center">
           <h1 class="text-[42px] leading-none tracking-tight text-gray-900 drop-shadow-md">
@@ -444,7 +505,7 @@
                   <p class="text-2xl tracking-tight font-medium text-gray-900 text-start md:text-4xl">
                     {{ $t('whatIs') }}
                   </p>
-                  <img src="../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
+                  <img src="../../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
                     alt="Taxi Vrsar, logo" class="w-11 h-8 inline-block me-3 rounded-xl" />
                 </div>
                 <div class="flex items-center mb-2 w-[80vw] min-w-md max-w-md">
@@ -496,7 +557,7 @@
                   <p class="text-2xl tracking-tight font-medium text-gray-900 text-start md:text-4xl">
                     {{ $t('fleet') }}
                   </p>
-                  <img src="../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's vehicle fleet, cars and vans"
+                  <img src="../../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's vehicle fleet, cars and vans"
                     alt="Taxi Vrsar's vehicle fleet, cars and vans" class="w-11 h-8 inline-block me-3 rounded-xl" />
                 </div>
                 <div class="flex items-center mb-2 w-[80vw] min-w-md max-w-md">
@@ -536,7 +597,7 @@
                   </p>
                 </div>
                 <div class="flex justify-between">
-                  <img src="../assets/imgs/cars.jpg" loading="lazy" title="Taxi Vrsar's business image, Logo"
+                  <img src="../../assets/imgs/cars.jpg" loading="lazy" title="Taxi Vrsar's business image, Logo"
                     alt="Taxi Vrsar, logo" class="w-[80vw] min-w-md max-w-md inline-block me-3 rounded-xl" />
                 </div>
                 <p class="text-xl text-start my-2 font-medium text-gray-500">
@@ -549,7 +610,7 @@
                   <p class="text-2xl tracking-tight font-medium text-gray-900 text-start md:text-4xl">
                     {{ $t('best') }}
                   </p>
-                  <img src="../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
+                  <img src="../../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
                     alt="Taxi Vrsar, logo" class="w-11 h-8 inline-block me-3 rounded-xl" />
                 </div>
                 <div class="w-48 text-base">
@@ -722,8 +783,8 @@
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6 text-black">
           <NuxtLink class="text-blue-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            :to="{ path: '/taxivrsar', hash: '#home' }">
-            <img src="../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
+            :to="{ path: '/385992053344/prezentacija', hash: '#home' }">
+            <img src="../../assets/imgs/taxiopatijalogo.png" title="Taxi Vrsar's business image, Logo"
               alt="Taxi Vrsar, logo" class="w-20 h-[60px] inline-block me-3 rounded-xl" />
           </NuxtLink>
         </div>
@@ -737,12 +798,12 @@
             </li>
 
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink :to="{ path: '/taxivrsar', hash: '#prices' }"
+              <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#prices' }"
                 class="no-underline hover:underline text-gray-800 hover:text-blue-500">{{ $t("services") }}
               </NuxtLink>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink :to="{ path: '/taxivrsar', hash: '#about-us' }"
+              <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#about-us' }"
                 class="no-underline hover:underline text-gray-800 hover:text-blue-500">{{ $t("aboutUs") }}
               </NuxtLink>
             </li>
@@ -752,7 +813,7 @@
           <p class="uppercase text-gray-500 md:mb-6">{{ $t("pricing") }}</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink :to="{ path: '/taxivrsar', hash: '#taxi-price' }"
+              <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#taxi-price' }"
                 class="no-underline hover:underline text-gray-800 hover:text-blue-500">{{ $t("servicesTaxi") }}
               </NuxtLink>
             </li>
@@ -804,6 +865,20 @@ onMounted(() => {
   //   scrollToSection("#start");
   // }
   i18n.locale.value = navigator.language.split("-")[0];
+});
+
+onMounted(() => {
+  initAccordions();
+  initCarousels();
+  initCollapses();
+  initDials();
+  initDismisses();
+  initDrawers();
+  initDropdowns();
+  initModals();
+  initPopovers();
+  initTabs();
+  initTooltips();
 });
 
 function scrollToSection(hash) {

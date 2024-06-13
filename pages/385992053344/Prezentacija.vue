@@ -10,7 +10,64 @@
 
 
   <body>
+    <header class="fixed top-0 w-full z-50">
+      <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+          <NuxtLink to="/385992053344" class="flex items-center">
+            <img src="../../assets/img/hplink.webp" class="h-10 mr-3 sm:h-16" alt="Hyperlink Logo" />
 
+          </NuxtLink>
+          <div class="flex items-center lg:order-2">
+
+            <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
+            <a href="tel:+385992053344"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Naruči
+              izradu</a>
+            <button data-collapse-toggle="mobile-menu-2" type="button"
+              class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="mobile-menu-2" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <li>
+                <NuxtLink to="/385992053344/prezentacija"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Prezentacija</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/385992053344/demo"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Primjer
+                  web stranice</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#česta-pitanja' }"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Često
+                  postavljena pitanja</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#cijena' }"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Cijena</NuxtLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <section class=" pt-20">
       <div class="max-w-screen-xl px-4 mx-auto lg:py-16 lg:px-6">
         <div class="max-w-screen-sm mx-auto text-center">
@@ -27,7 +84,7 @@
     <section class="bg-white dark:bg-gray-900">
       <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class=" lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="../assets/img/taximockup2.png" class="p-2 rounded-xl" alt="hero image">
+          <img src="../../assets/img/taximockup2.png" class="p-2 rounded-xl" alt="hero image">
         </div>
         <div class="mr-auto place-self-center lg:col-span-7">
 
@@ -42,7 +99,7 @@
             Pripremili smo nešto za Vas.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-            <NuxtLink to='/taxivrsar'
+            <NuxtLink to='/385992053344/demo'
               class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-white border border-blue-400 rounded-lg sm:w-auto bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
               Pregled stranice
             </NuxtLink>
@@ -310,8 +367,8 @@ useSeoMeta({
     "Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!",
   ogDescription:
     "Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!",
-  ogImage: "../assets/img/ogpoduke.jpeg",
-  twitterCard: "../assets/img/ogpoduke.jpeg",
+  ogImage: "../../assets/img/ogpoduke.jpeg",
+  twitterCard: "../../assets/img/ogpoduke.jpeg",
 });
 
 // initialize components based on data attribute selectors
