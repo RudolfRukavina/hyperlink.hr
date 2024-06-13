@@ -8,14 +8,14 @@
   </Head>
 
 
-  <nav class="bg-transparent">
+  <nav class="bg-black">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="../../assets/img/vrsarlogo.webp" class="h-8" alt="Flowbite Logo" />
       </a>
       <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
         <button type="button" data-dropdown-toggle="language-dropdown-menu"
-          class="inline-flex bg-gray-300 items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+          class="inline-flex bg-transparent items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-lg cursor-pointer hover:bg-black">
           <svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
             <path fill="#b22234" d="M0 0h7410v3900H0z" />
@@ -42,7 +42,7 @@
               <use xlink:href="#e" x="2470" />
             </g>
           </svg>
-          English (US)
+          English
         </button>
         <!-- Dropdown -->
         <div
@@ -71,7 +71,7 @@
                         transform="scale(3.9385)" />
                     </g>
                   </svg>
-                  English (US)
+                  English
                 </div>
               </a>
             </li>
@@ -80,58 +80,86 @@
                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                 role="menuitem">
                 <div class="inline-flex items-center">
-                  <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    id="flag-icon-css-de" viewBox="0 0 512 512">
-                    <path fill="#ffce00" d="M0 341.3h512V512H0z" />
-                    <path d="M0 0h512v170.7H0z" />
-                    <path fill="#d00" d="M0 170.7h512v170.6H0z" />
-                  </svg>
-                  Deutsch
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                role="menuitem">
-                <div class="inline-flex items-center">
-                  <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    id="flag-icon-css-it" viewBox="0 0 512 512">
-                    <g fill-rule="evenodd" stroke-width="1pt">
-                      <path fill="#fff" d="M0 0h512v512H0z" />
-                      <path fill="#009246" d="M0 0h170.7v512H0z" />
-                      <path fill="#ce2b37" d="M341.3 0H512v512H341.3z" />
+                  <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true" role="img" class="h-3.5 w-3.5 rounded-full me-2"
+                    preserveAspectRatio="xMidYMid meet" fill="#000000">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path d="M32 2C18.9 2 7.8 10.4 3.7 22h56.6C56.2 10.4 45.1 2 32 2z" fill="#ed4c5c"> </path>
+                      <path d="M32 62c13.1 0 24.2-8.3 28.3-20H3.7C7.8 53.7 18.9 62 32 62z" fill="#428bc1"> </path>
+                      <path
+                        d="M3.7 22C2.6 25.1 2 28.5 2 32s.6 6.9 1.7 10h56.6c1.1-3.1 1.7-6.5 1.7-10s-.6-6.9-1.7-10H3.7z"
+                        fill="#f9f9f9"> </path>
+                      <path
+                        d="M42.9 25.2l2.6-6l-2-3.2l-3.3 1.2l-2.3-2.7l-3.1 1.8L32 14l-2.8 2.3l-3.1-1.8l-2.3 2.7l-3.3-1.2l-2 3.3l2.6 6c3.3-1.5 7-2.3 10.9-2.3c3.9-.2 7.6.7 10.9 2.2"
+                        fill="#ffffff"> </path>
+                      <path d="M34.7 16.5L32 14.3l-2.7 2.2l.5 6.2c.7-.1 1.5-.1 2.2-.1c.7 0 1.5 0 2.2.1l.5-6.2"
+                        fill="#428bc1"> </path>
+                      <path d="M32 50c6.2 0 11.3-5.1 11.3-11.3V25.3H20.7v13.4C20.7 44.9 25.8 50 32 50" fill="#ed4c5c">
+                      </path>
+                      <path d="M32 49.8c6.1 0 11.1-5 11.1-11.1V25.5H20.9v13.2c0 6.1 5 11.1 11.1 11.1" fill="#ffffff">
+                      </path>
+                      <g fill="#ed4c5c">
+                        <path d="M25.6 25.9h-4.3v4.7h4.3v-4.7"> </path>
+                        <path d="M25.6 35.3h4.3v-4.7h-4.3v4.7"> </path>
+                        <path d="M21.3 38.7c0 .4 0 .8.1 1.3h4.2v-4.7h-4.3v3.4"> </path>
+                        <path d="M34.1 35.3h-4.3V40h4.3v-4.7"> </path>
+                        <path d="M34.1 44.7h4.3V40h-4.3v4.7"> </path>
+                        <path d="M38.4 47.2c.9-.7 1.8-1.6 2.4-2.6h-2.4v2.6"> </path>
+                        <path d="M25.6 44.7h4.3V40h-4.3v4.7"> </path>
+                        <path d="M23.2 44.7c.7 1 1.5 1.8 2.4 2.6v-2.6h-2.4"> </path>
+                        <path d="M32.7 49.3c.5 0 .9-.1 1.4-.2v-4.5h-4.3v4.5c.5.1.9.2 1.4.2c.5.1 1 .1 1.5 0"> </path>
+                        <path d="M42.6 40c0-.4.1-.8.1-1.3v-3.4h-4.3V40h4.2"> </path>
+                        <path d="M34.1 35.3h4.3v-4.7h-4.3v4.7"> </path>
+                        <path d="M34.1 25.9h-4.3v4.7h4.3v-4.7"> </path>
+                        <path d="M42.6 30.6v-4.7h-4.3v4.7h4.3"> </path>
+                      </g>
+                      <path d="M23.9 17.4l-3.3-1.2l-1.9 3l.7 1.6l1.8 4.1c1.3-.6 2.7-1.1 4.2-1.4l-1.5-6.1"
+                        fill="#428bc1"> </path>
+                      <path
+                        d="M23.7 20.4c.1.2.2.5.2.8c0 .9-.7 1.6-1.6 1.6c-.8 0-1.4-.6-1.6-1.3c.3.5.8.8 1.4.8c.9 0 1.6-.7 1.6-1.6v-.3"
+                        fill="#ffffff"> </path>
+                      <path fill="#ffe62e"
+                        d="M22.2 18.1v.1l-.1.6l.5.3v.1h-.1l-.5.2l-.1.5v.1l-.1-.1l-.4-.3l-.6.2v-.1l.1-.5l-.4-.4v-.1l.6-.2l.1-.5v-.1v.1l.4.3l.6-.1z">
+                      </path>
+                      <path d="M29.3 16.5l-3.1-1.7l-2.3 2.6l1.5 6c1.4-.4 2.9-.6 4.4-.7l-.5-6.2" fill="#2a5f9e"> </path>
+                      <g fill="#ed4c5c">
+                        <path d="M25 21.9c1.5-.4 3-.6 4.6-.8l-.1-1.6c-1.7.1-3.3.4-4.9.8l.4 1.6"> </path>
+                        <path d="M24.3 18.9c1.7-.4 3.4-.7 5.1-.9l-.1-1.5c-1.8.2-3.6.5-5.4.9l.4 1.5"> </path>
+                      </g>
+                      <g fill="#ffe62e">
+                        <path
+                          d="M32 19.3c-.2 0-.5.7-.9.2c0 0 .3.4.3.6l-.3-.1c0 2.1 1.9 2 1.9 0l-.3.1c0-.1.3-.6.3-.6c-.5.5-.7-.1-1-.2">
+                        </path>
+                        <path
+                          d="M33.2 16.4c-.2 0-.5.7-.9.2c0 0 .3.4.3.6l-.3-.1c0 2.1 1.9 2 1.9 0l-.3.1c0-.1.3-.6.3-.6c-.4.5-.7-.2-1-.2">
+                        </path>
+                        <path
+                          d="M30.7 16.4c-.2 0-.5.7-.9.2c0 0 .3.4.3.6l-.3-.1c0 2.1 1.9 2 1.9 0l-.3.1c0-.1.3-.6.3-.6c-.4.5-.7-.2-1-.2">
+                        </path>
+                      </g>
+                      <path d="M40.1 17.4l-2.3-2.7l-3.1 1.8l-.5 6.2c1.5.1 3 .4 4.4.7l1.5-6" fill="#2a5f9e"> </path>
+                      <path
+                        d="M35.3 17.8h.3c.2.1.2 0 .3-.1c.2-.1.8-.2 1.4.1c.1.1.7.1.7.1s-.5.2-1 0c.2.1.3.3.5.4c.1 0 .8.2.8.2s-.6.3-1 0c-.3-.3-.6-.6-1.1-.5l.3.1c-.1.1-.4.2-.5.1c0 .3 1 1.3 2.2 1c.5-.2.2.2.1.4c-.1.1-.5 2.3-1.6 1.8c0 0 .6-.2.6-.6l-.2-.2c-.4 0-.7 1.2-1.2.6c0 0 .6-.3.5-.8H36c-.3.1-.2 1.2-.8.9c0 0 .7-1 .3-1c-.1.2-.3.4-.3.6c.2.2-.5.2-.4 0c0-.1.5-.6.4-1.1c-.2-.1 0-1 .1-1.2c-.6 0-.2-.2-.1-.6c.2 0 .1 0 .1-.2"
+                        fill="#ffe62e"> </path>
+                      <path d="M42.8 24.9l2.5-5.7l-1.9-3l-3.3 1.2l-1.5 6c1.4.4 2.8.9 4.2 1.5" fill="#428bc1"> </path>
+                      <path d="M39.6 19.6c1.7.4 3.3 1 4.8 1.7l-1 2.2c-1.4-.6-2.9-1.1-4.4-1.5l.6-2.4" fill="#ffffff">
+                      </path>
+                      <path d="M43.5 23.1l.6-1.5c-1.5-.7-3.1-1.2-4.7-1.6l-.4 1.5c1.6.4 3.1.9 4.5 1.6" fill="#ed4c5c">
+                      </path>
+                      <path d="M42 17.4l.1.6l-.4.4l.6.2l.1.6l.5-.4l.6.2l-.1-.6l.4-.4l-.6-.2l-.1-.6l-.4.4l-.7-.2"
+                        fill="#ffe62e"> </path>
                     </g>
                   </svg>
-                  Italiano
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                role="menuitem">
-                <div class="inline-flex items-center">
-                  <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512">
-                    <defs>
-                      <path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z" />
-                    </defs>
-                    <path fill="#de2910" d="M0 0h512v512H0z" />
-                    <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a" />
-                    <use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a" />
-                    <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a" />
-                    <use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a" />
-                    <use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a" />
-                  </svg>
-                  中文 (繁體)
+                  Hrvatski
                 </div>
               </a>
             </li>
           </ul>
         </div>
         <button data-collapse-toggle="navbar-language" type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 w-10 h-10 bg-black justify-center text-sm text-white rounded-lg md:hidden hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-language" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -142,27 +170,27 @@
       </div>
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
         <ul
-          class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="#"
-              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+              class="block py-2 px-3  bg-white text-black rounded md:bg-transparent md:text-white md:underline underline-offset-2 md:hover:underline md:p-0"
               aria-current="page">Home</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">About</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">Services</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
+              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">Pricing</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">Contact</a>
           </li>
         </ul>
       </div>
@@ -258,37 +286,43 @@
               <h1
                 class="max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-4xl xl:text-5xl text-white drop-shadow-md">
                 {{ taxiName }}</h1>
-              <a href="" class="flex mb-4 items-center justify-start">
-                <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                  <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor" viewBox="0 0 22 20">
-                    <path
-                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                  </svg>
-                  <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor" viewBox="0 0 22 20">
-                    <path
-                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                  </svg>
-                  <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor" viewBox="0 0 22 20">
-                    <path
-                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                  </svg>
-                  <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor" viewBox="0 0 22 20">
-                    <path
-                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                  </svg>
-                  <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor" viewBox="0 0 22 20">
-                    <path
-                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
-                  </svg>
+              <a href="" class=" mb-4">
+                <div class="flex justify-evenly">
+                  <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                  </div>
+                  <span class="bg-white text-black text-xs font-semibold px-2.5 py-0.5 rounded  ms-3">5.0
+                  </span>
                 </div>
-                <span
-                  class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-800 ms-3">5.0</span>
+                <p class="text-md text-end font-medium text-white">
+                  <span class="text-2xl font-bold">{{ ratings }}</span> global ratings
+                </p>
               </a>
+
             </div>
             <p class="max-w-2xl mb-4 font-light lg:mt-8 md:text-lg lg:text-xl text-gray-100">
               Through it’s many years of business, Lanterna Taxi Poreč provides a top service of taxi transportation,
