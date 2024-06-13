@@ -42,10 +42,10 @@
             Pripremili smo nešto za Vas.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-            <a href="tel:+385992053344"
+            <NuxtLink to='/taxivrsar'
               class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-white border border-blue-400 rounded-lg sm:w-auto bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
               Pregled stranice
-            </a>
+            </NuxtLink>
 
           </div>
 

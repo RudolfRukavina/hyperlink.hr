@@ -10,10 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/i18n": "^8.3.1",
     "@nuxtjs/seo": "^2.0.0-rc.7",
     "@nuxtjs/sitemap": "^5.1.0",
     "@nuxtjs/tailwindcss": "^6.11.1",
+    "dayjs-nuxt": "^2.1.9",
     "nuxt": "^3.10.0",
+    "nuxt-marquee": "^1.0.4",
     "nuxt-og-image": "^3.0.0-rc.37",
     "nuxt-simple-robots": "^4.0.0-rc.14",
     "vue": "^3.4.14",

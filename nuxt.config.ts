@@ -1,32 +1,52 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
- app: {
+  app: {
     head: {
-      charset: 'utf-8',
-     viewport: 'width=device-width, initial-scale=1',
-      link: [{ rel: 'icon', type: 'image/x-con', href: './public/favicon.ico'}],
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/apple-touch-icon.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/favicon-32x32.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/favicon-16x16.png",
+        },
+        { rel: "manifest", href: "/site.webmanifest" },
+      ],
     },
   },
-    robots: {
-    mergeWithRobotsTxtPath: './public/_robots.txt'
-  },
     ssr: false,
-    modules: [
-    '@nuxtjs/tailwindcss',
-      'nuxt-swiper',
-      '@nuxtjs/sitemap',
-      '@nuxtjs/seo',
-      'nuxt-simple-robots',
-      'nuxt-og-image',
-  ],
-      sitemap: {
-    path: '/sitemap.xml', // The path where the sitemap will be generated
-    hostname: 'https://poduke.vercel.app/', // Your website's URL
-    cacheTime: 1000 * 60 * 15, // How long to cache the sitemap in milliseconds (optional)
-    gzip: true, // Enable gzip compression for the generated sitemap (optional)
-    exclude: [], // Array of URLs to exclude from the sitemap (optional)
+  modules: ["@nuxtjs/tailwindcss", "nuxt-swiper", "dayjs-nuxt", '@nuxtjs/i18n', "nuxt-marquee"],
+  i18n: {
+    vueI18n: './i18n.config.ts', // if you are using custom path, default
+       detectBrowserLanguage: {
+      useCookie: true, // Enable to persist the user's choice
+      cookieKey: 'i18n_redirected',
+      alwaysRedirect: true, // Redirect the user to the preferred language
+    },
   },
-    tailwindcss: {
-        cssPath: '~/assets/css/input.css'
+  dayjs: {
+    locales: ['hr'], // Croatian locale
+    defaultLocale: 'hr', // Set Croatian as the default locale
+    defaultTimezone: 'Europe/Zagreb', // Set the default timezone for Croatia
+    plugins: ['relativeTime', 'utc', 'timezone'] // Use desired plugins
+  },
+  tailwindcss: {
+    cssPath: "~/assets/css/input.css",
+  },
+    build: {
+        transpile: ['@vuepic/vue-datepicker']
     }
-})
+});
