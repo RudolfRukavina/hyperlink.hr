@@ -43,7 +43,7 @@
                 Prezentacija</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/385992053344/demo"
+              <NuxtLink :to="'/' + taxiNumber + '/demo'"
                 class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                 Primjer
                 web stranice</NuxtLink>
@@ -67,13 +67,13 @@
   <header>
     <div class="bg-transparent backdrop-blur-[1px] fixed bottom-0 z-50 w-full">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-3 pb-2">
-        <NuxtLink id='Go to homepage' :to="{ path: '/385992053344/demo', hash: '#home' }"
+        <NuxtLink id='Go to homepage' :to="{ path: '/' + taxiNumber + '/demo', hash: '#home' }"
           class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="../../assets/imgs/taxiopatijalogo.png" title="Taxi's business image, Logo" alt="Taxi, logo"
             class="w-17 h-[44px] inline-block rounded-xl" />
         </NuxtLink>
         <div class="flex items-center space-x-6 rtl:space-x-reverse">
-          <a href="viber://chat?number=%2B38598491369">
+          <a :href="'viber://chat?number=%2B' + taxiNumber">
             <svg class="w-10 rounded-lg custom-shadow border border-white hover:border-none" version="1.1" id="Capa_1"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 455.731 455.731" xml:space="preserve" fill="#000000">
@@ -103,7 +103,7 @@
               </g>
             </svg>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=38599999999" target="_blank" rel="noopener">
+          <a :href="'https://api.whatsapp.com/send?phone=' + taxiNumber" target="_blank" rel="noopener">
             <svg class="w-10 rounded-lg custom-shadow border border-white hover:border-none"
               xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512" fill="#000000">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -117,9 +117,9 @@
               </g>
             </svg>
           </a>
-          <a href="tel:+385999999999"
-            class="bg-blue-700 border-2 border-lime-50 hover:bg-blue-800 text-white font-bold py-[5px] px-2 rounded-lg text-lg">+385
-            99 999 999</a>
+          <a :href="'tel:+' + taxiNumber"
+            class="bg-blue-700 border-2 border-lime-50 hover:bg-blue-800 text-white font-bold py-[5px] px-2 rounded-lg text-lg">+{{
+          taxiNumber }}</a>
         </div>
       </div>
     </div>
@@ -129,26 +129,28 @@
     <!-- <img class="hero-photo h-[200px] mb-6 md:hidden rounded-none" src="../../assets/imgs/opatijamainphoto.webp"
       alt="Opatija Taxi" /> -->
     <div
-      class="overflow-x-auto text-nowrap whitespace-nowrap sticky top-14 w-full z-40 bg-white mb-14 text-gray-800 shadow-sm"
+      class="overflow-x-auto text-nowrap whitespace-nowrap sticky top-14 md:top-20 w-full z-40 bg-white mb-14 text-gray-800 shadow-sm"
       id="start">
       <div class="max-w-screen-xl px-4 py-2 mx-auto">
         <div class="flex items-center justify-evenly">
           <ul class="grid grid-cols-3 font-medium mt-0 text-[16px]">
             <li class="border-e px-4 w-full text-center">
-              <NuxtLink :to="{ path: '/385992053344/demo', hash: '#home' }" class="hover:underline drop-shadow-md">{{
+              <NuxtLink :to="{ path: '/' + taxiNumber + '/demo', hash: '#home' }"
+                class="hover:underline drop-shadow-md">{{
           $t("home")
         }}
               </NuxtLink>
             </li>
             <li class="px-4 w-full text-center border-gray-300">
-              <NuxtLink :to="{ path: '/385992053344/demo', hash: '#taxi-price' }"
+              <NuxtLink :to="{ path: '/' + taxiNumber + '/demo', hash: '#taxi-price' }"
                 class="hover:underline drop-shadow-md">{{
           $t("prices")
         }}
               </NuxtLink>
             </li>
             <li class="border-s px-4 w-full text-center">
-              <NuxtLink :to="{ path: '/385992053344/demo', hash: '#about-us' }" class="hover:underline drop-shadow-md">
+              <NuxtLink :to="{ path: '/' + taxiNumber + '/demo', hash: '#about-us' }"
+                class="hover:underline drop-shadow-md">
                 {{
           $t("aboutUs")
         }}
@@ -159,7 +161,7 @@
       </div>
       <hr />
     </div>
-    <div class="relative isolate px-6 lg:px-8 pt-8 pb-10 bg-white">
+    <div class="relative isolate px-6 lg:px-8 pt-8 md:pt-20 pb-10 bg-white">
       <div class="mx-auto max-w-2xl pt-10">
         <div class="flex justify-center">
           <img src="../../assets/imgs/taxiopatijalogo.webp" alt="Taxi Business Logo Image" title="Taxi, logo"
@@ -225,7 +227,7 @@
           </a>
 
           <div class="mt-10 flex items-center justify-evenly gap-x-2">
-            <a href="viber://chat?number=%2B38598491369">
+            <a :href="'viber://chat?number=%2B' + taxiNumber">
               <svg class="w-14 rounded-lg custom-shadow border border-white hover:border-none" version="1.1" id="Capa_1"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 455.731 455.731" xml:space="preserve" fill="#000000">
@@ -255,13 +257,13 @@
                 </g>
               </svg>
             </a>
-            <a id="callLink2" href="tel:+385999999999" class="inline-block w-50">
+            <a id="callLink2" :href="'tel:+' + taxiNumber" class="inline-block w-50">
               <button
                 class="bg-blue-700 border-2 border-lime-50 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-lg">
                 <p class="inline-block">{{ $t("callARide") }}</p>
               </button>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=38599999999" target="_blank" rel="noopener">
+            <a :href="'https://api.whatsapp.com/send?phone=' + taxiNumber" target="_blank" rel="noopener">
               <svg class="w-14 rounded-lg custom-shadow border border-white hover:border-none"
                 xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512"
                 fill="#000000">
@@ -811,7 +813,7 @@
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">{{ $t("pricing") }}</p>
+          <p class="uppercase text-gray-500 md:mb-6">{{ $t("prices") }}</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <NuxtLink :to="{ path: '/' + taxiNumber + '/demo', hash: '#taxi-price' }"
@@ -866,7 +868,7 @@ const i18n = useI18n();
 const taxiName = "Taxi Vrsar"
 const taxiCity = "Vrsar"
 const taxiUrl = "taxivrsar.hr"
-const taxiNumber = "385992053344"
+const taxiNumber = "385976415557"
 
 import {
   initAccordions,
