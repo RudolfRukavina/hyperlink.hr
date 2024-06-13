@@ -13,7 +13,7 @@
     <header class="fixed top-0 w-full z-50">
       <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-          <NuxtLink to="/385992053344" class="flex items-center">
+          <NuxtLink to="/385992053344/prezentacija" class="flex items-center">
             <img src="../../assets/img/hplink.webp" class="h-10 mr-3 sm:h-16" alt="Hyperlink Logo" />
 
           </NuxtLink>
@@ -53,13 +53,13 @@
                   web stranice</NuxtLink>
               </li>
               <li>
-                <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#česta-pitanja' }"
+                <NuxtLink :to="{ path: '/' + taxiNumber + '/prezentacija', hash: '#česta-pitanja' }"
                   class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                   Često
                   postavljena pitanja</NuxtLink>
               </li>
               <li>
-                <NuxtLink :to="{ path: '/385992053344/prezentacija', hash: '#cijena' }"
+                <NuxtLink :to="{ path: '/' + taxiNumber + '/prezentacija', hash: '#cijena' }"
                   class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                   Cijena</NuxtLink>
               </li>
@@ -314,6 +314,15 @@
   </body>
 </template>
 <script setup>
+
+//USER DATA
+const taxiName = "Taxi Vrsar"
+const taxiCity = "Vrsar"
+const taxiUrl = "taxivrsar.hr"
+const taxiNumber = "385992053344"
+
+
+
 import { ref } from "vue";
 import { onMounted } from "vue";
 import {

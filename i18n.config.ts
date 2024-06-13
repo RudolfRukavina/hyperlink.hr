@@ -3,7 +3,7 @@ export default defineI18nConfig(() => ({
   locale: "en",
   messages: {
     en: {
-      welcome: "Welcome to Taxi Vrsar.hr",
+      welcome: "Welcome to",
       titleDesc: "Official taxi of Vrsar",
       callARide: "Call a taxi",
       home: "Home",
@@ -60,7 +60,7 @@ export default defineI18nConfig(() => ({
       approach: "With our dedicated approach and attention to detail, Taxi Vrsar creates a travel experience that will remain a fond memory. Contact us today and let us provide you with an unforgettable journey that exceeds all your expectations.",
     },
     hr: {
-      welcome: "Dobrodošli na službenu stranicu Taxi Vrsar.hr",
+      welcome: "Dobrodošli na službenu stranicu",
       titleDesc: "Jednostavno, brzo, pouzdano.",
       callARide: "Pozovi taksi",
       home: "Naslovnica",
