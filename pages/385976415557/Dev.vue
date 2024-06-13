@@ -325,8 +325,8 @@
 
             </div>
             <p class="max-w-2xl mb-4 font-light lg:mt-8 md:text-lg lg:text-xl text-gray-100">
-              Through it’s many years of business, Lanterna Taxi Poreč provides a top service of taxi transportation,
-              transfers and excursions in the area of ​​Poreč. We are at your disposal every day 0-24. Contact us and
+              Through it’s many years of business, Taxi Vrsar M.T. provides a top service of taxi transportation,
+              transfers and excursions in the area of Vrsar. We are at your disposal every day 0-24. Contact us and
               book yourself professional and safe ride.
             </p>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
@@ -420,6 +420,67 @@
     </div>
   </header>
 
+  <main>
+    <div class="w-full bg-center  bg-cover"
+      style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%), url(https://www.mbusa.com/content/dam/mb-nafta/us/myco/my24/gle-class/suv/gallery/series/gallery-class/2024-GLE-SUV-GAL-017-K-FI-DR.jpg);">
+      <h3 class="text-center w-full py-8 text-white bg-black bg-opacity-70 text-3xl">Rezervacije</h3>
+      <section
+        class="bg-black bg-opacity-65 rounded-2xl flex justify-center p-5 mb-20 max-w-xl mx-auto shadow-lg md:mt-5">
+        <div class="grid grid-cols-1 w-full">
+          <div class="py-0 px-4">
+            <form action="#" class="space-y-8">
+              <div>
+                <label for="name" class="block mb-2 text-sm font-medium text-white">Vaše
+                  ime</label>
+                <input type="text" id="name"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-black text-[16px] rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                  required />
+              </div>
+              <div>
+                <label for="tel" class="block mb-2 text-sm font-medium text-white">Vaš broj
+                  telefona</label>
+                <input type="tel" id="tel"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-black text-[16px] rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                  required />
+              </div>
+              <div class="sm:col-span-2">
+                <label for="message" class="block mb-2 text-sm font-medium text-white dark:text-gray-400">Vaša
+                  poruka</label>
+                <textarea id="message" rows="10"
+                  class="block p-2.5 w-full text-[16px] text-black bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-white focus:border-white"
+                  placeholder="">
+                </textarea>
+              </div>
+              <div class="flex justify-evenly">
+                <a>
+                  <div
+                    class="text-center max-w-sm hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    Pošaljite kao e-mail
+                  </div>
+                </a>
+                <a class="flex items-center" target="_blank">
+                  <svg class="w-14 rounded-lg custom-shadow border border-white hover:border-none"
+                    xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512"
+                    fill="#000000">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <rect width="512" height="512" rx="15%" fill="#25d366"></rect>
+                      <path fill="#25d366" stroke="#ffffff" stroke-width="26" d="M123 393l14-65a138 138 0 1150 47z">
+                      </path>
+                      <path fill="#ffffff"
+                        d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18">
+                      </path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
 </template>
 
 <script setup>
