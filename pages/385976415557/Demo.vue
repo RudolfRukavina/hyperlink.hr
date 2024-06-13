@@ -452,7 +452,7 @@
                   </p>
                 </div>
                 <p class="text-sm text-start font-medium text-gray-500">
-                  15 global ratings
+                  {{ ratings }} global ratings
                 </p>
                 <div class="flex items-center mt-4">
                   <a href="#" class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">5 star</a>
@@ -493,10 +493,10 @@
                 <div class="md:grid md:grid-cols-2 gap-2 lg:grid-cols-1 text-start">
                   <div class="mt-4">
                     <p class="text-sm text-blue-500 dark:text-blue-400">
-                      "Vrhunska i brza usluga! Vozač vrlo pristojan i uljudan."
+                      {{ review }}
                     </p>
                     <p class="text-xs mt-2 text-zinc-500">
-                      <span class="block text-xs">Vedran</span>
+                      <span class="block text-xs">{{ reviewName }}</span>
                     </p>
                   </div>
                 </div>
@@ -869,6 +869,9 @@ const taxiName = "Taxi Vrsar"
 const taxiCity = "Vrsar"
 const taxiUrl = "taxivrsar.hr"
 const taxiNumber = "385976415557"
+const ratings = "108"
+const review = "Ljubazan, susretljiv i siguran vozač, korektna cijena, čist auto, ugodna glazba. Definitivno ću ponovno koristiti."
+const reviewName = "Marija"
 
 import {
   initAccordions,

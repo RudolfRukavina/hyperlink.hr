@@ -96,7 +96,7 @@
             class="max-w-2xl  text-5xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
             {{ taxiName }}</h1>
           <p class="max-w-2xl mb-4 font-light text-gray-500 lg:mt-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Pripremili smo nešto za Vas.
+            Pripremili smo <NuxtLink :to="'/' + taxiNumber + '/demo'">web stranicu</NuxtLink> za Vas.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
             <NuxtLink :to="'/' + taxiNumber + '/demo'"
