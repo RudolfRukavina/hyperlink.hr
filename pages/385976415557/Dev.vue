@@ -178,15 +178,12 @@
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">About</a>
+              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">About
+              us</a>
           </li>
           <li>
             <a href="#"
               class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">Services</a>
-          </li>
-          <li>
-            <a href="#"
-              class="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-white hover:text-black md:hover:bg-transparent md:hover:underline underline-offset-2 md:hover:text-white ">Pricing</a>
           </li>
           <li>
             <a href="#"
@@ -423,9 +420,11 @@
   <main>
     <div class="w-full bg-center  bg-cover"
       style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%), url(https://www.mbusa.com/content/dam/mb-nafta/us/myco/my24/gle-class/suv/gallery/series/gallery-class/2024-GLE-SUV-GAL-017-K-FI-DR.jpg);">
-      <h3 class="text-center w-full py-8 text-white bg-black bg-opacity-70 text-3xl">Rezervacije</h3>
-      <section
-        class="bg-black bg-opacity-65 rounded-2xl flex justify-center p-5 mb-20 max-w-xl mx-auto shadow-lg md:mt-5">
+      <div
+        class="flex w-full justify-center mx-auto text-center py-8 text-white bg-black bg-opacity-70 max-w-xl text-3xl">
+        <h3 class="">Rezervacije</h3>
+      </div>
+      <section class="bg-black bg-opacity-65 flex justify-center p-5 max-w-xl mx-auto shadow-lg">
         <div class="grid grid-cols-1 w-full">
           <div class="py-0 px-4">
             <form action="#" class="space-y-8">
@@ -451,17 +450,43 @@
                   placeholder="">
                 </textarea>
               </div>
-              <div class="flex justify-evenly">
-                <a>
-                  <div
-                    class="text-center max-w-sm hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Pošaljite kao e-mail
-                  </div>
-                </a>
-                <a class="flex items-center" target="_blank">
-                  <svg class="w-14 rounded-lg custom-shadow border border-white hover:border-none"
-                    xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512"
+              <div
+                class="flex justify-between my-3 text-white bg-black p-2 rounded-full bg-opacity-35 backdrop-blur-[1px]">
+                <div
+                  class="bg-black bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full me-5">
+                  <svg class="w-14 h-14 p-1 rounded-full" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.731 455.731" xml:space="preserve"
                     fill="#000000">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <g>
+                        <rect x="0" y="0" style="fill: #7d3daf" width="455.731" height="455.731"></rect>
+                        <g>
+                          <path style="fill: #ffffff"
+                            d="M371.996,146.901l-0.09-0.36c-7.28-29.43-40.1-61.01-70.24-67.58l-0.34-0.07 c-48.75-9.3-98.18-9.3-146.92,0l-0.35,0.07c-30.13,6.57-62.95,38.15-70.24,67.58l-0.08,0.36c-9,41.1-9,82.78,0,123.88l0.08,0.36 c6.979,28.174,37.355,58.303,66.37,66.589v32.852c0,11.89,14.49,17.73,22.73,9.15l33.285-34.599 c7.219,0.404,14.442,0.629,21.665,0.629c24.54,0,49.09-2.32,73.46-6.97l0.34-0.07c30.14-6.57,62.96-38.15,70.24-67.58l0.09-0.36 C380.996,229.681,380.996,188.001,371.996,146.901z M345.656,264.821c-4.86,19.2-29.78,43.07-49.58,47.48 c-25.921,4.929-52.047,7.036-78.147,6.313c-0.519-0.014-1.018,0.187-1.38,0.559c-3.704,3.802-24.303,24.948-24.303,24.948 l-25.85,26.53c-1.89,1.97-5.21,0.63-5.21-2.09v-54.422c0-0.899-0.642-1.663-1.525-1.836c-0.005-0.001-0.01-0.002-0.015-0.003 c-19.8-4.41-44.71-28.28-49.58-47.48c-8.1-37.15-8.1-74.81,0-111.96c4.87-19.2,29.78-43.07,49.58-47.48 c45.27-8.61,91.17-8.61,136.43,0c19.81,4.41,44.72,28.28,49.58,47.48C353.765,190.011,353.765,227.671,345.656,264.821z">
+                          </path>
+                          <path style="fill: #ffffff"
+                            d="M270.937,289.942c-3.044-0.924-5.945-1.545-8.639-2.663 c-27.916-11.582-53.608-26.524-73.959-49.429c-11.573-13.025-20.631-27.73-28.288-43.292c-3.631-7.38-6.691-15.049-9.81-22.668 c-2.844-6.948,1.345-14.126,5.756-19.361c4.139-4.913,9.465-8.673,15.233-11.444c4.502-2.163,8.943-0.916,12.231,2.9 c7.108,8.25,13.637,16.922,18.924,26.485c3.251,5.882,2.359,13.072-3.533,17.075c-1.432,0.973-2.737,2.115-4.071,3.214 c-1.17,0.963-2.271,1.936-3.073,3.24c-1.466,2.386-1.536,5.2-0.592,7.794c7.266,19.968,19.513,35.495,39.611,43.858 c3.216,1.338,6.446,2.896,10.151,2.464c6.205-0.725,8.214-7.531,12.562-11.087c4.25-3.475,9.681-3.521,14.259-0.624 c4.579,2.898,9.018,6.009,13.43,9.153c4.331,3.086,8.643,6.105,12.638,9.623c3.841,3.383,5.164,7.821,3.001,12.412 c-3.96,8.408-9.722,15.403-18.034,19.868C276.387,288.719,273.584,289.127,270.937,289.942 C267.893,289.017,273.584,289.127,270.937,289.942z">
+                          </path>
+                          <path style="fill: #ffffff"
+                            d="M227.942,131.471c36.515,1.023,66.506,25.256,72.933,61.356c1.095,6.151,1.485,12.44,1.972,18.683 c0.205,2.626-1.282,5.121-4.116,5.155c-2.927,0.035-4.244-2.414-4.434-5.039c-0.376-5.196-0.637-10.415-1.353-15.568 c-3.78-27.201-25.47-49.705-52.545-54.534c-4.074-0.727-8.244-0.918-12.371-1.351c-2.609-0.274-6.026-0.432-6.604-3.675 c-0.485-2.719,1.81-4.884,4.399-5.023C226.527,131.436,227.235,131.468,227.942,131.471 C264.457,132.494,227.235,131.468,227.942,131.471z">
+                          </path>
+                          <path style="fill: #ffffff"
+                            d="M283.434,203.407c-0.06,0.456-0.092,1.528-0.359,2.538c-0.969,3.666-6.527,4.125-7.807,0.425 c-0.379-1.098-0.436-2.347-0.438-3.529c-0.013-7.734-1.694-15.46-5.594-22.189c-4.009-6.916-10.134-12.73-17.318-16.248 c-4.344-2.127-9.042-3.449-13.803-4.237c-2.081-0.344-4.184-0.553-6.275-0.844c-2.534-0.352-3.887-1.967-3.767-4.464 c0.112-2.34,1.822-4.023,4.372-3.879c8.38,0.476,16.474,2.287,23.924,6.232c15.15,8.023,23.804,20.687,26.33,37.597 c0.114,0.766,0.298,1.525,0.356,2.294C283.198,199.002,283.288,200.903,283.434,203.407 C283.374,203.863,283.288,200.903,283.434,203.407z">
+                          </path>
+                          <path style="fill: #ffffff"
+                            d="M260.722,202.523c-3.055,0.055-4.69-1.636-5.005-4.437c-0.219-1.953-0.392-3.932-0.858-5.832 c-0.918-3.742-2.907-7.21-6.055-9.503c-1.486-1.083-3.17-1.872-4.934-2.381c-2.241-0.647-4.568-0.469-6.804-1.017 c-2.428-0.595-3.771-2.561-3.389-4.839c0.347-2.073,2.364-3.691,4.629-3.527c14.157,1.022,24.275,8.341,25.719,25.007 c0.102,1.176,0.222,2.419-0.039,3.544C263.539,201.464,262.113,202.429,260.722,202.523 C257.667,202.578,262.113,202.429,260.722,202.523z">
+                          </path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div
+                  class="bg-black bg-opacity-25 cursor-pointer hover:bg-opacity-75 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full mx-5">
+                  <svg class="w-14 h-14 p-1 rounded-full" xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp"
+                    role="img" viewBox="0 0 512 512" fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -473,7 +498,21 @@
                       </path>
                     </g>
                   </svg>
-                </a>
+                </div>
+                <div
+                  class="bg-black bg-opacity-25 cursor-pointer hover:bg-opacity-75 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full ms-5">
+                  <svg class="w-14 h-14 p-1 rounded-full" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                      stroke-width="0.24000000000000005"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M19 21V15M19 15L17 17M19 15L21 17M21 11V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.0799 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.0799 19 6.2 19H13M20.6067 8.26229L15.5499 11.6335C14.2669 12.4888 13.6254 12.9165 12.932 13.0827C12.3192 13.2295 11.6804 13.2295 11.0677 13.0827C10.3743 12.9165 9.73279 12.4888 8.44975 11.6335L3.14746 8.09863"
+                        stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </svg>
+                </div>
               </div>
             </form>
           </div>
