@@ -64,7 +64,7 @@
         <div class="">
           <div class="mx-auto max-w-7xl lg:px-8">
             <div class="mx-auto mt-4 max-w-2xl  ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
-              <div class="p-8 relative bg-white shadow-inner sm:p-10 lg:flex-auto">
+              <div class="p-8 relative bg-white shadow-inner sm:p-10 lg:flex-auto" id="cijena">
 
                 <h3 class="text-3xl font-bold tracking-tight text-gray-900 mt-5">Taxi web stranica</h3>
                 <div class="mt-5 flex items-center gap-x-4">
@@ -136,7 +136,7 @@
           </div>
         </div>
         <section class="bg-white rounded-xl dark:bg-gray-900">
-          <div class="w-full px-6 py-8 rounded-xl  lg:pb-24 lg:px-6 ">
+          <div class="w-full px-6 py-8 rounded-xl  lg:pb-24 lg:px-6 " id="česta-pitanja">
             <h2
               class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
               Često postavljana pitanja</h2>
