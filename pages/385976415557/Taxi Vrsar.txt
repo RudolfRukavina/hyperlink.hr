@@ -1,0 +1,17 @@
+DEMO:
+//USER DATA
+const taxiName = "Taxi Vrsar"
+const taxiCity = "Vrsar"
+const taxiUrl = "taxivrsar.hr"
+const taxiNumber = "385976415557"
+const ratings = "108"
+const review = "Ljubazan, susretljiv i siguran vozač, korektna cijena, čist auto, ugodna glazba. Definitivno ću ponovno koristiti."
+const reviewName = "Marija"
+
+
+Prezentacija:
+//USER DATA
+const taxiName = "Taxi Vrsar"
+const taxiCity = "Vrsar"
+const taxiUrl = "taxivrsar.hr"
+const taxiNumber = "385976415557"

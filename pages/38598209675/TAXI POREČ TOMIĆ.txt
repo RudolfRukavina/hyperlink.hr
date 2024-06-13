@@ -1,0 +1,17 @@
+DEMO:
+//USER DATA
+const taxiName = "Taxi Poreč"
+const taxiCity = "Poreč"
+const taxiUrl = "taxiporeč.hr"
+const taxiNumber = "38598209675"
+const ratings = "49"
+const review = "Taxi milinko is one of the best taxi drivers I know, very professional in his work, and a great person, very helpful. I would recommend him to everyone👌 …"
+const reviewName = "Ivanka"
+
+
+Prezentacija:
+//USER DATA
+const taxiName = "Taxi Poreč"
+const taxiCity = "Poreč"
+const taxiUrl = "taxiporeč.hr"
+const taxiNumber = "38598209675"
