@@ -407,7 +407,7 @@
                 </div>
               </div>
             </div>
-            <img class="object-cover w-full h-full" src="../assets/img/kvarnernaslovnica.jpeg" alt="..." />
+            <img class="object-cover w-full h-full" src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-2-900x600.jpg" alt="..." />
           </NuxtLink>
         </div>
         <div class="col-span-1 lg:col-span-1">
