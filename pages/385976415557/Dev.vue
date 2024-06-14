@@ -275,7 +275,7 @@
           </div>
         </div>
       </div>
-      <section class="bg-black bg-opacity-50 pt-5 backdrop-blur-[1px]">
+      <section class="bg-black bg-opacity-50 pt-7 backdrop-blur-[1px]">
         <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 
           <div class="mr-auto place-self-center lg:col-span-7">
@@ -326,7 +326,7 @@
               transfers and excursions in the area of Vrsar. We are at your disposal every day 0-24. Contact us and
               book yourself professional and safe ride.
               <button v-show="!showMoreText" @click="toggleText"
-                class="text-end underline w-full py-2 text-yellow-300 outline-offset-2 hover:text-yellow-400 focus:outline-none">Read
+                class="text-end underline w-full pb-2 text-yellow-300 outline-offset-2 hover:text-yellow-400 focus:outline-none">Read
                 More</button>
             </p>
             <p class="text-start w-full py-2 font-semibold tracking-wide text-lg text-yellow-300 focus:outline-none"
@@ -346,7 +346,7 @@
               drivers with knowledge of several foreign languages ​​are always the right choice for a reliable ride.
             </p>
             <button v-show="showMoreText" @click="toggleText"
-              class="text-end underline text-xl w-full py-2 text-yellow-300 focus:outline-none">Hide</button>
+              class="text-end underline text-base w-full pb-4 text-yellow-300 focus:outline-none">Hide</button>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
               <NuxtLink :to="'/' + taxiNumber + '/demo'"
                 class="inline-flex items-center justify-center w-full px-5 py-3 text-lg font-medium text-center text-black border border-yellow-300 rounded-lg sm:w-auto bg-yellow-300 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-100 ">
