@@ -8,7 +8,7 @@
   </Head>
 
 
-  <nav class="bg-black">
+  <nav class="bg-black" id="home">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="../../assets/img/vrsarlogo.webp" class="h-8" alt="Flowbite Logo" />
@@ -321,11 +321,32 @@
               </a>
 
             </div>
-            <p class="max-w-2xl mb-4 font-light lg:mt-8 md:text-lg lg:text-xl text-gray-100">
+            <p class="max-w-2xl mb-4 font-light lg:mt-8 md:text-lg lg:text-xl text-gray-100" id="about-us">
               Through it’s many years of business, Taxi Vrsar M.T. provides a top service of taxi transportation,
               transfers and excursions in the area of Vrsar. We are at your disposal every day 0-24. Contact us and
               book yourself professional and safe ride.
+              <button v-show="!showMoreText" @click="toggleText"
+                class="text-end underline w-full py-2 text-yellow-300 focus:outline-none">Read
+                More</button>
             </p>
+            <p class="text-start w-full py-2 font-semibold tracking-wide text-lg text-yellow-300 focus:outline-none"
+              v-show="showMoreText">
+              About us
+            </p>
+            <p class="max-w-xl font-semibold mb-3 text-3xl md:text-3xl lg:text-4xl text-gray-100" v-show="showMoreText">
+              We are a professional taxi-transfer service from Poreč, Croatia
+            </p>
+            <p class="max-w-2xl text-xl mb-4 font-medium md:text-lg lg:text-2xl text-gray-200" v-show="showMoreText">
+              with over 20 years of experience. <br />
+
+              During this time we have managed to perfect our business and provide only the best for our customers.
+            </p>
+            <p class="max-w-2xl text-md font-medium md:text-lg lg:text-xl text-gray-400" v-show="showMoreText">
+              If you need a transfer from the airport, bus and train station or to the shipping port. Our professional
+              drivers with knowledge of several foreign languages ​​are always the right choice for a reliable ride.
+            </p>
+            <button v-show="showMoreText" @click="toggleText"
+              class="text-end underline text-xl w-full py-2 text-yellow-300 focus:outline-none">Hide</button>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
               <NuxtLink :to="'/' + taxiNumber + '/demo'"
                 class="inline-flex items-center justify-center w-full px-5 py-3 text-lg font-medium text-center text-black border border-yellow-300 rounded-lg sm:w-auto bg-yellow-300 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-100 ">
@@ -513,6 +534,18 @@
 import dayjs from "dayjs";
 
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+
+const showMoreText = ref(false);
+
+const toggleText = () => {
+  if (showMoreText.value === false) {
+    scrollToSection("#about-us")
+  } else {
+    scrollToSection("#home")
+  }
+  showMoreText.value = !showMoreText.value;
+};
 
 const mainImage = ref("https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/transfers-900x600.jpg");
 const images = ref([
