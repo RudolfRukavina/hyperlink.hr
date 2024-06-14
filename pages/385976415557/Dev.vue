@@ -340,13 +340,13 @@
       </section>
     </div>
 
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 gap-2 bg-black p-2">
       <div class="col-span-1 lg:col-span-1">
         <NuxtLink class="portfolio-item block relative" to="/ostalo">
           <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
             <div class="caption absolute inset-0 flex items-center justify-center">
               <div class="text-white text-center">
-                <div class="text-2xl">Transferi
+                <div class="text-2xl font-bold tracking-wide drop-shadow-md">Transfers
                 </div>
               </div>
             </div>
@@ -360,7 +360,7 @@
           <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
             <div class="caption absolute inset-0 flex items-center justify-center">
               <div class="text-white text-center">
-                <div class="text-2xl">Ekskurzije
+                <div class="text-2xl font-bold tracking-wide drop-shadow-md">Excursions
                 </div>
               </div>
             </div>
@@ -375,7 +375,9 @@
             class=" absolute inset-0 bg-black bg-opacity-0 md:bg-opacity-75 transition-opacity lg:opacity-0 hover:opacity-100">
             <div class="caption absolute right-0 md:inset-0 flex items-center justify-center">
               <div class="text-white text-center">
-                <div class="text-xl bg-black lg:bg-transparent bg-opacity-50 pe-6 py-1 rounded-bl-lg">Organizirana
+                <div
+                  class="text-xl bg-black lg:bg-transparent bg-opacity-50 pe-6 py-1 ps-3 rounded-bl-lg font-semibold tracking-wide drop-shadow-md">
+                  Organizirana
                   putovanja
                 </div>
               </div>
@@ -384,34 +386,6 @@
           <img class="object-cover w-full h-full max-h-[40vw]"
             src="https://dailytravelpill.com/wp-content/uploads/2021/01/croatia-travel-guide-page-cover.jpg"
             alt="..." />
-        </NuxtLink>
-      </div>
-      <div class="col-span-1 lg:col-span-1">
-        <NuxtLink class="portfolio-item block relative" to="/ostalo">
-          <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
-            <div class="caption absolute inset-0 flex items-center justify-center">
-              <div class="text-white text-center">
-                <div class="text-2xl">O nama
-                </div>
-              </div>
-            </div>
-          </div>
-          <img class="object-cover w-full h-full"
-            src="https://lanterna-taxi-porec.com/wp-content/uploads/2024/05/IMG_0045-600x600.jpg" alt="..." />
-        </NuxtLink>
-      </div>
-      <div class="col-span-1 lg:col-span-1">
-        <NuxtLink class="portfolio-item block relative" to="/ostalo">
-          <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
-            <div class="caption absolute inset-0 flex items-center justify-center">
-              <div class="text-white text-center">
-                <div class="text-2xl">Kontakt
-                </div>
-              </div>
-            </div>
-          </div>
-          <img class="object-cover w-full h-full"
-            src="https://lanterna-taxi-porec.com/wp-content/uploads/2024/05/IMG_0045-600x600.jpg" alt="..." />
         </NuxtLink>
       </div>
     </div>
