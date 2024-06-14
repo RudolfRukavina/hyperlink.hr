@@ -388,6 +388,37 @@
             alt="..." />
         </NuxtLink>
       </div>
+      <div class="grid col-span-2 gap-4">
+        <div>
+          <img class="h-auto max-w-full rounded-lg"
+            src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/transfers-900x600.jpg" alt="">
+        </div>
+        <div class="grid grid-cols-5 gap-4">
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-4-900x600.jpg" alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-1-900x600.jpg" alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-2-900x600.jpg" alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://lanterna-taxi-porec.com/wp-content/uploads/2024/05/IMG_0045-600x600.jpg" alt="">
+          </div>
+          <div>
+            <img class="h-auto max-w-full rounded-lg"
+              src="https://lanterna-taxi-porec.com/wp-content/uploads/2024/05/IMG_0009-2-600x600.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
   </header>
 
