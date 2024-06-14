@@ -443,21 +443,21 @@
                 <label for="name" class="block mb-2 text-sm font-medium text-white">Vaše
                   ime</label>
                 <input type="text" id="name"
-                  class="shadow-sm bg-gray-50 border border-gray-300 text-black text-[16px] rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-black text-[16px] rounded-lg focus:ring-gray-200 focus:border-gray-200 block w-full p-2.5"
                   required />
               </div>
               <div>
                 <label for="tel" class="block mb-2 text-sm font-medium text-white">Vaš broj
                   telefona</label>
                 <input type="tel" id="tel"
-                  class="shadow-sm bg-gray-50 border border-gray-300 text-black text-[16px] rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-black text-[16px] rounded-lg focus:ring-gray-200 focus:border-gray-200 block w-full p-2.5"
                   required />
               </div>
               <div class="sm:col-span-2">
                 <label for="message" class="block mb-2 text-sm font-medium text-white">Vaša
                   poruka</label>
                 <textarea id="message" rows="10"
-                  class="block p-2.5 w-full text-[16px] text-black bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-white focus:border-white"
+                  class="block p-2.5 w-full text-[16px] text-black bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-gray-200 focus:border-gray-200"
                   placeholder="">
                 </textarea>
               </div>
@@ -685,24 +685,24 @@
 
           <div class="grid grid-cols-1 gap-4">
             <div>
-              <p class="font-medium text-3xl text-white">Obrt za cestovni promet M.T.</p>
+              <p class="font-medium text-3xl text-white">MT, obrt za taxi usluge</p>
 
-              <ul class="mt-6 space-y-4 text-sm">
+              <ul class="mt-6 space-y-4 text-base">
                 <li>
                   <a href="#" class="text-white transition hover:opacity-75">
-                    Jože Šurana 12, 52440 Poreč, Croatia
+                    Vala 3, 52450 Vrsar, Croatia
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-white transition hover:opacity-75">
-                    +385 91 7339 726
+                  <a href="#" class="text-white transition underline underline-offset-2 hover:opacity-75">
+                    +385 97 641 5557
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-white transition hover:opacity-75">
-                    lanternataxi.porec@gmail.com
+                  <a href="#" class="text-white transition underline underline-offset-2 hover:opacity-75">
+                    info@taxivrsar.com
                   </a>
                 </li>
               </ul>
