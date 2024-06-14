@@ -432,12 +432,11 @@
   <main>
     <div class="w-full bg-center  bg-cover"
       style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%), url(https://www.mbusa.com/content/dam/mb-nafta/us/myco/my24/gle-class/suv/gallery/series/gallery-class/2024-GLE-SUV-GAL-017-K-FI-DR.jpg);">
-      <div
-        class="flex w-full justify-center mx-auto text-center py-8 text-white bg-black bg-opacity-70 max-w-xl text-3xl">
+      <div class="flex w-full justify-center mx-auto text-center py-8 text-white bg-black bg-opacity-70 text-3xl">
         <h3 class="">Rezervacije</h3>
       </div>
-      <section class="bg-black bg-opacity-65 flex justify-center p-5 max-w-xl mx-auto shadow-lg">
-        <div class="grid grid-cols-1 w-full">
+      <section class="bg-black bg-opacity-65 flex justify-center p-5 mx-auto shadow-lg">
+        <div class="grid grid-cols-1 w-full max-w-xl">
           <div class="py-0 px-4">
             <form action="#" class="space-y-8">
               <div>
@@ -463,7 +462,7 @@
                 </textarea>
               </div>
               <div
-                class="flex justify-between my-3 text-white bg-black p-2 rounded-full bg-opacity-35 backdrop-blur-[1px]">
+                class="flex justify-between mb-3 text-white bg-black p-2 rounded-full bg-opacity-35 backdrop-blur-[1px]">
                 <div
                   class="bg-black bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full me-5">
                   <svg class="w-14 h-14 p-1 rounded-full" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -534,8 +533,8 @@
 
     <footer class="bg-black lg:grid lg:grid-cols-5">
       <div class="lg:col-span-2">
-        <div class="bg-black pt-5">
-          <div class="flex px-5 w-auto">
+        <div class="bg-yellow-300 p-[1px]">
+          <div class="flex w-auto">
             <div class="w-[100vw] text-center bg-black">
               <div class="flex">
                 <div
@@ -571,13 +570,13 @@
                       <path
                         d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                     </svg>
-                    <p class="ms-1 text-sm font-medium text-gray-500">
+                    <p class="ms-1 text-sm font-medium text-gray-300">
                       5
                     </p>
-                    <p class="ms-1 text-sm font-medium text-gray-500">
+                    <p class="ms-1 text-sm font-medium text-gray-300">
                       out of
                     </p>
-                    <p class="ms-1 text-sm font-medium text-gray-500">
+                    <p class="ms-1 text-sm font-medium text-gray-300">
                       5
                     </p>
                   </div>
@@ -626,7 +625,7 @@
                       <p class="text-sm text-white">
                         {{ review }}
                       </p>
-                      <p class="text-xs mt-2 text-zinc-200">
+                      <p class="text-base mt-2 text-yellow-300">
                         <span class="block text-xs">{{ reviewName }}</span>
                       </p>
                     </div>
@@ -779,7 +778,7 @@ const taxiCity = "Vrsar"
 const taxiUrl = "taxivrsar.hr"
 const taxiNumber = "385976415557"
 const ratings = "108"
-const review = "Ljubazan, susretljiv i siguran vozač, korektna cijena, čist auto, ugodna glazba. Definitivno ću ponovno koristiti."
+const review = '"Ljubazan, susretljiv i siguran vozač, korektna cijena, čist auto, ugodna glazba. Definitivno ću ponovno koristiti."'
 const reviewName = "Marija"
 
 import {
