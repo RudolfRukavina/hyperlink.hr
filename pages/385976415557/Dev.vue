@@ -389,30 +389,12 @@
         </NuxtLink>
       </div>
       <div class="grid col-span-2 gap-4">
-        <div>
-          <img class="h-auto max-w-full rounded-lg"
-            src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/transfers-900x600.jpg" alt="">
+        <div class="flex justify-center">
+          <img :src="mainImage" class="h-auto max-w-full rounded-lg" alt="">
         </div>
         <div class="grid grid-cols-5 gap-4">
-          <div>
-            <img class="h-auto max-w-full rounded-lg"
-              src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-4-900x600.jpg" alt="">
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg"
-              src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-1-900x600.jpg" alt="">
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg"
-              src="https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-2-900x600.jpg" alt="">
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg"
-              src="https://lanterna-taxi-porec.com/wp-content/uploads/2024/05/IMG_0045-600x600.jpg" alt="">
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg"
-              src="https://lanterna-taxi-porec.com/wp-content/uploads/2024/05/IMG_0009-2-600x600.jpg" alt="">
+          <div v-for="(image, index) in images" :key="index" @click="setMainImage(image)">
+            <img :src="image" class="h-auto max-w-full rounded-lg cursor-pointer" alt="">
           </div>
         </div>
       </div>
@@ -528,8 +510,37 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import dayjs from "dayjs";
+
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const mainImage = ref("https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/transfers-900x600.jpg");
+const images = ref([
+  "https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-4-900x600.jpg",
+  "https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-1-900x600.jpg",
+  "https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-2-900x600.jpg",
+  "https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-1-900x600.jpg",
+  "https://lanterna-taxi-porec.com/wp-content/uploads/2023/03/taxi-transfer-porec-2-900x600.jpg",
+]);
+
+const setMainImage = (image) => {
+  mainImage.value = image;
+};
+
+let interval;
+
+onMounted(() => {
+  interval = setInterval(() => {
+    const currentIndex = images.value.indexOf(mainImage.value);
+    const nextIndex = (currentIndex + 1) % images.value.length;
+    mainImage.value = images.value[nextIndex];
+  }, 10000);
+});
+
+onBeforeUnmount(() => {
+  clearInterval(interval);
+});
+
 
 const i18n = useI18n();
 
