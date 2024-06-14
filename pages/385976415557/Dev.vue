@@ -275,7 +275,7 @@
           </div>
         </div>
       </div>
-      <section class="bg-black bg-opacity-50 pt-8 backdrop-blur-[1px]">
+      <section class="bg-black bg-opacity-50 pt-5 backdrop-blur-[1px]">
         <div class="grid max-w-screen-xl px-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 
           <div class="mr-auto place-self-center lg:col-span-7">
@@ -326,7 +326,7 @@
               transfers and excursions in the area of Vrsar. We are at your disposal every day 0-24. Contact us and
               book yourself professional and safe ride.
               <button v-show="!showMoreText" @click="toggleText"
-                class="text-end underline w-full py-2 text-yellow-300 focus:outline-none">Read
+                class="text-end underline w-full py-2 text-yellow-300 outline-offset-2 hover:text-yellow-400 focus:outline-none">Read
                 More</button>
             </p>
             <p class="text-start w-full py-2 font-semibold tracking-wide text-lg text-yellow-300 focus:outline-none"
