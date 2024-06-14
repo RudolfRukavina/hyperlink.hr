@@ -209,7 +209,7 @@
                 class="flex justify-between my-3 text-white bg-black p-2 rounded-full bg-opacity-25 backdrop-blur-[1px]">
                 <div
                   class="bg-black bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full me-5">
-                  <svg class="w-20 h-20 rounded-full" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  <svg class="w-16 h-16 rounded-full" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.731 455.731" xml:space="preserve"
                     fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -240,7 +240,7 @@
                 </div>
                 <div
                   class="bg-black bg-opacity-25 cursor-pointer hover:bg-opacity-75 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full mx-5">
-                  <svg class="w-20 h-20 rounded-full" xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp"
+                  <svg class="w-16 h-16 rounded-full" xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp"
                     role="img" viewBox="0 0 512 512" fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -255,8 +255,8 @@
                   </svg>
                 </div>
                 <div
-                  class="bg-black bg-opacity-25 cursor-pointer hover:bg-opacity-75 transition-shadow duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,1)] backdrop-blur-[1px] rounded-full ms-5">
-                  <svg class="w-20 h-20" viewBox="0 -0.5 25 25" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                  class="bg-black bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition-shadow duration-200 shadow-[0_0_0_1px_rgba(255,255,255,1)] hover:shadow-yellow-200 backdrop-blur-[1px] rounded-full ms-5">
+                  <svg class="w-16 h-16" viewBox="0 -0.5 25 25" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
