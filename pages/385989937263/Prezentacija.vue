@@ -264,7 +264,7 @@
                 </h3>
                 <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
                   <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">Produživanje domene će vas koštati 83€ za narednu
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Produživanje domene će vas koštati 20€ za narednu
                       godinu.</p>
                   </div>
                 </div>
@@ -284,7 +284,7 @@
                 </h3>
                 <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
                   <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                    <p class="text-gray-500 dark:text-gray-400">Produživanje hostinga će vas koštati 25€ za narednu
+                    <p class="text-gray-500 dark:text-gray-400">Produživanje hostinga će vas koštati 30€ za narednu
                       godinu.</p>
                   </div>
                 </div>
